@@ -16,7 +16,7 @@ const teamHtml = (teamMembers) => {
             <h3>Engineer</h3>
             <p>Email: <a href=mailto:">${engineer.email}</a></p>
             <p>Employee ID: ${engineer.id}</p>
-            <p>GitHub: <a>${engineer.gitHub}</a></p>
+            <p>GitHub: <a href="${engineer.gitHubLink}">${engineer.gitHub}</a></p>
         </div>
     </div>
         `
@@ -29,7 +29,7 @@ const teamHtml = (teamMembers) => {
         <div class="container">
             <h2><b>${intern.name}</b></h2>
             <h3>Engineer</h3>
-            <p>Email: <a href=${intern.email}">Send Email</a>${intern.email}</p>
+            <p>Email: <a href=${intern.email}">${intern.email}</a></p>
             <p>Employee ID: ${intern.id}</p>
             <p>University: ${intern.school}</p>
         </div>
@@ -44,7 +44,7 @@ const teamHtml = (teamMembers) => {
         <div class="container">
             <h2><b>${manager.name}</b></h2>
             <h3>Engineer</h3>
-            <p>Email:<a href = "mailto:${manager.email}">Send Email</a>${manager.email}</p>
+            <p>Email:<a href = "mailto:${manager.email}">${manager.email}</a></p>
             <p>Employee ID: ${manager.id}</p>
             <p>Office Number: ${manager.officeNumber}</p>
         </div>

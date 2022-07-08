@@ -115,15 +115,32 @@ const promptEngineer = () => {
                         return false;
                     }
                 }
+            },
+
+            {
+                type: 'input',
+                message: 'Please enter the github username link for the engineer.',
+                name: 'gitHubLink',
+
+                // adding validation for email input
+                validate: engineerGitHubLink => {
+
+                    if (engineerGitHubLink) {
+                        return true;
+                    } else {
+                        console.log('You must enter the github username link of the engineer.');
+                        return false;
+                    }
+                }
             }
         ]
     ).then(responses => {
         // getting the responses
         console.log(responses);
-        const engineer = new Engineer(responses.name, responses.id, responses.email, responses.gitHub);
+        const engineer = new Engineer(responses.name, responses.id, responses.email, responses.gitHub, responses.gitHubLink);
 
 
-        // pushing the new instanc of engineer w/ the reponses to the empty array
+        // pushing the new instance of engineer w/ the reponses to the empty array
         team.push(engineer);
         console.log(team);
 
