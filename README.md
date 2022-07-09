@@ -13,7 +13,7 @@
 MIT ![licence icon](https://img.shields.io/badge/License-MIT-lavender.svg)
 
 ## 🚀 Project Details
-Utilizing Javascript and Node.js I developed an application that prompts the user to enter information regarding team members they wish to create. This information is then added to a clean and concisely formatted html file.This Team Profile generator will help users organize people on their team. [App Demo](https://drive.google.com/file/d/1ngAW6xM4Rx82JLgh2Cd4kujWvHF6G6CW/view)
+Utilizing Javascript and Node.js I developed an application that prompts the user to enter information regarding team members they wish to create. This information is then added to a clean and concisely formatted html file.This Team Profile generator will help users organize people on their team. [App Demo](https://drive.google.com/file/d/1VuUQ0OFDejuuuM4IzUrN-wFOC2cWFAYf/view)
 ![Screenshot of App](/develop/Assets/images/app1.png)
 
 ## 👩‍💻 Usage Information
