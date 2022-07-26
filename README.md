@@ -36,4 +36,4 @@ Email: jeanette.k.ralph@gmail.com
 
 GitHub link: [https://github.com/Jeanette-Ralph](https://github.com/Jeanette-Ralph)
 
-GitHub username: Jeanette-Ralph
+GitHub username: [Jeanette-Ralph](https://github.com/Jeanette-Ralph)
