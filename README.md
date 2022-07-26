@@ -34,6 +34,6 @@ If you have any further questions please reach out.
 
 Email: jeanette.k.ralph@gmail.com 
 
-GitHub link: [https://github.com/Jeanette-Ralph](https://github.com/Jeanette-Ralph)
+GitHub link: [Team Profile Generator Repository](https://github.com/Jeanette-Ralph/Team-Profile-Generator))
 
 GitHub username: [Jeanette-Ralph](https://github.com/Jeanette-Ralph)
